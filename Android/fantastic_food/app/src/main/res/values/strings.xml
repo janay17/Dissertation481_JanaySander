@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Fantastic Food</string>
+    <string name="email">Email Address</string>
+    <string name="email_icon_description">Email icon</string>
+    <string name="password_icon_description">Password Icon</string>
+    <string name="password">Password</string>
+    <string name="login_button_text">LOGIN</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="signup_button_text">SIGN UP</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="explore_recipes">Explore Recipes</string>
+    <string name="favourite_recipes">Favourite Recipes</string>
+    <string name="profile">My Profile</string>
+    <string name="sign_out">Sign out</string>
+    <string name="BMI">Your Body Mass Index:</string>
+    <string name="update_weight">UPDATE MY WEIGHT</string>
+    <string name="home">Home</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_icon_description">Search Icon</string>
+    <string name="search">Search</string>
+    <string name="preferences">Based on my meal plans and allergies</string>
+    <string name="mealplans">Suitable Meal Plans:</string>
+    <string name="allergens">Contains Allergens:</string>
+    <string name="instructions">Instructions:</string>
+    <string name="my_details">My Details</string>
+    <string name="allergies">Allergies</string>
+    <string name="my_mealplans">Meal Plans</string>
+    <string name="my_recipes">My Recipes</string>
+    <string name="optional_info">Optional Information</string>
+    <string name="weight">Weight</string>
+    <string name="Kilogram">kg</string>
+    <string name="height">Height</string>
+    <string name="Metres">m</string>
+    <string name="sign_in_heading">Sign in details</string>
+    <string name="allergies_select">Select what you are allergic to:</string>
+    <string name="mealplans_select">Select your meal plan preferences:</string>
+    <string name="add_recipe">ADD NEW RECIPE</string>
+    <string name="recipe_name">Recipe Name</string>
+    <string name="Minutes">mins</string>
+    <string name="time">Time</string>
+    <string name="new_instructions">Instructions</string>
+</resources>

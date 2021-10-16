@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".UserInterface.MainComponents.SingleRecipe"
+    android:background="@color/secondary_light">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/recipe_menu_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fitsSystemWindows="true">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.AppBarLayout.PrimarySurface"
+            android:fitsSystemWindows="true">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/recipe_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:title="Recipe"
+                app:titleTextAppearance="@style/appbar_text"
+                style="@style/Widget.MaterialComponents.Toolbar.PrimarySurface"
+                android:background="@android:color/transparent"
+                android:elevation="0dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/image_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintTop_toBottomOf="@id/recipe_menu_container"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginBottom="10dp"
+        android:elevation="20dp">
+        <ImageView
+            android:id="@+id/single_recipe_image"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+
+            android:background="@drawable/input_shape_light"
+            android:elevation="15dp"
+            android:scaleType="centerCrop"/>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/single_recipe_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/image_card"
+        style="@style/single_recipe_title"
+        android:textSize="30dp"
+        android:text="Recipe Name" />
+
+    <LinearLayout
+        android:id="@+id/difficulty_stars"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/single_recipe_name"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/star1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/star"/>
+
+        <ImageView
+            android:id="@+id/star2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/star"/>
+
+        <ImageView
+            android:id="@+id/star3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/star"/>
+
+        <TextView
+            android:id="@+id/single_recipe_difficulty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/single_recipe_image"
+            style="@style/single_recipe_title"
+            android:text="MEDIUM"
+            android:paddingStart="10dp"/>
+
+    </LinearLayout>
+
+    <TextView
+    android:id="@+id/single_recipe_preptime"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toBottomOf="@id/difficulty_stars"
+    style="@style/single_recipe_title"
+    android:text="Preparation: 30 mins" />
+
+    <TextView
+        android:id="@+id/mealplans_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/single_recipe_preptime"
+        style="@style/single_recipe_title"
+        android:text="@string/mealplans"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/suitable_mealplans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        app:layout_constraintTop_toBottomOf="@id/mealplans_title"
+        android:background="@drawable/input_shape"
+        android:layout_marginHorizontal="10dp"
+        android:textSize="18sp"
+        android:textColor="@color/ternary_white"
+        android:fontFamily="@font/sanista"
+        android:textAlignment="center"
+        android:paddingTop="10dp"/>
+
+    <TextView
+        android:id="@+id/allergens_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/suitable_mealplans"
+        style="@style/single_recipe_title"
+        android:text="@string/allergens"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/containing_allergens"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        app:layout_constraintTop_toBottomOf="@id/allergens_title"
+        android:background="@drawable/input_shape"
+        android:layout_marginHorizontal="10dp"
+        android:textSize="18sp"
+        android:textColor="@color/ternary_white"
+        android:fontFamily="@font/sanista"
+        android:textAlignment="center"
+        android:paddingTop="10dp"/>
+
+    <TextView
+        android:id="@+id/instructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/containing_allergens"
+        style="@style/single_recipe_title"
+        android:text="@string/instructions"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/instruction_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/instructions"
+        android:background="@drawable/input_shape"
+        android:layout_marginHorizontal="10dp"
+        android:textSize="18sp"
+        android:textColor="@color/ternary_white"
+        android:fontFamily="@font/sanista"
+        android:textAlignment="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingHorizontal="10dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/instruction_text"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

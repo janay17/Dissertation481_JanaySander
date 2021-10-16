@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_graph"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.sander.fantasticfood.UserInterface.MainComponents.Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/explore_recipes"
+        android:name="com.sander.fantasticfood.UserInterface.MainComponents.ExploreRecipes"
+        android:label="fragment_explore_recipes"
+        tools:layout="@layout/fragment_explore_recipes" />
+    <fragment
+        android:id="@+id/favourite_recipes"
+        android:name="com.sander.fantasticfood.UserInterface.MainComponents.FavouriteRecipes"
+        android:label="fragment_favourite_recipes"
+        tools:layout="@layout/fragment_favourite_recipes" />
+    <activity
+        android:id="@+id/my_profile"
+        android:name="com.sander.fantasticfood.UserInterface.MainComponents.MyProfileActivity"
+        android:label="my_profile"
+        tools:layout="@layout/activity_my_profile" />
+
+    <activity
+        android:id="@+id/sign_out"
+        android:name="com.sander.fantasticfood.UserInterface.AuthenticationActivity"
+        android:label="AuthenticationActivity"
+        tools:layout="@layout/activity_authentication"/>
+
+
+    <include app:graph="@navigation/profile_graph" />
+</navigation>

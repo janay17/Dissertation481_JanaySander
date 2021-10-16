@@ -1,0 +1,132 @@
+# Details
+
+Date : 2021-09-11 15:31:30
+
+Directory c:\Users\janay.sander\Documents\Dissertation_481\RESEARCH\fantasticfood\Android\fantastic_food
+
+Total : 117 files,  5271 codes, 53 comments, 973 blanks, all 6297 lines
+
+[summary](results.md)
+
+## Files
+| filename | language | code | comment | blank | total |
+| :--- | :--- | ---: | ---: | ---: | ---: |
+| [fantastic_food/.idea/compiler.xml](/fantastic_food/.idea/compiler.xml) | XML | 6 | 0 | 0 | 6 |
+| [fantastic_food/.idea/gradle.xml](/fantastic_food/.idea/gradle.xml) | XML | 22 | 0 | 0 | 22 |
+| [fantastic_food/.idea/jarRepositories.xml](/fantastic_food/.idea/jarRepositories.xml) | XML | 25 | 0 | 0 | 25 |
+| [fantastic_food/.idea/misc.xml](/fantastic_food/.idea/misc.xml) | XML | 9 | 0 | 0 | 9 |
+| [fantastic_food/.idea/vcs.xml](/fantastic_food/.idea/vcs.xml) | XML | 6 | 0 | 0 | 6 |
+| [fantastic_food/app/build.gradle](/fantastic_food/app/build.gradle) | Groovy | 49 | 0 | 9 | 58 |
+| [fantastic_food/app/src/androidTest/java/com/sander/fantasticfood/ExampleInstrumentedTest.java](/fantastic_food/app/src/androidTest/java/com/sander/fantasticfood/ExampleInstrumentedTest.java) | Java | 15 | 6 | 5 | 26 |
+| [fantastic_food/app/src/main/AndroidManifest.xml](/fantastic_food/app/src/main/AndroidManifest.xml) | XML | 34 | 0 | 3 | 37 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/Model/Allergy.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/Model/Allergy.java) | Java | 70 | 0 | 18 | 88 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/Model/MealPlan.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/Model/MealPlan.java) | Java | 70 | 0 | 18 | 88 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/Model/Recipe.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/Model/Recipe.java) | Java | 121 | 0 | 29 | 150 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/Model/UserProfile.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/Model/UserProfile.java) | Java | 94 | 0 | 25 | 119 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/API/AllergyAPI.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/API/AllergyAPI.java) | Java | 21 | 0 | 9 | 30 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/API/MealPlanAPI.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/API/MealPlanAPI.java) | Java | 21 | 0 | 9 | 30 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/API/RecipeAPI.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/API/RecipeAPI.java) | Java | 31 | 0 | 12 | 43 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/API/UserProfileAPI.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/API/UserProfileAPI.java) | Java | 20 | 0 | 8 | 28 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/Adapters/AllergyRecyclerAdapter.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/Adapters/AllergyRecyclerAdapter.java) | Java | 61 | 0 | 17 | 78 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/Adapters/GalleryRecyclerAdapter.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/Adapters/GalleryRecyclerAdapter.java) | Java | 47 | 0 | 18 | 65 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/Adapters/MealPlanRecyclerAdapter.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/Adapters/MealPlanRecyclerAdapter.java) | Java | 61 | 0 | 18 | 79 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/Adapters/MyRecipeRecyclerAdapter.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/Adapters/MyRecipeRecyclerAdapter.java) | Java | 80 | 0 | 25 | 105 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/Adapters/RecipeAllergyAdapter.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/Adapters/RecipeAllergyAdapter.java) | Java | 68 | 0 | 18 | 86 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/Adapters/RecipeMealPlanAdapter.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/Adapters/RecipeMealPlanAdapter.java) | Java | 68 | 0 | 19 | 87 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/Adapters/RecipeRecyclerAdapter.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/Adapters/RecipeRecyclerAdapter.java) | Java | 93 | 0 | 24 | 117 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/AuthIntercepter.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/AuthIntercepter.java) | Java | 45 | 0 | 11 | 56 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/Logic/LoginViewModel.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/Logic/LoginViewModel.java) | Java | 86 | 0 | 17 | 103 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/Logic/RecipeLogic.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/Logic/RecipeLogic.java) | Java | 140 | 0 | 27 | 167 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/Logic/RecipeViewModel.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/Logic/RecipeViewModel.java) | Java | 34 | 0 | 14 | 48 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/Logic/SignUpViewModel.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/Logic/SignUpViewModel.java) | Java | 88 | 0 | 15 | 103 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/Logic/UserProfileLogic.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/Logic/UserProfileLogic.java) | Java | 81 | 0 | 11 | 92 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/LoginRESTClient.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/LoginRESTClient.java) | Java | 28 | 0 | 10 | 38 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/RESTClient.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/Services/RESTClient.java) | Java | 51 | 0 | 14 | 65 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/UserInterface/AuthenticationActivity.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/UserInterface/AuthenticationActivity.java) | Java | 27 | 0 | 8 | 35 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/UserInterface/AuthenticationFragments/Login.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/UserInterface/AuthenticationFragments/Login.java) | Java | 55 | 0 | 10 | 65 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/UserInterface/AuthenticationFragments/SignUp.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/UserInterface/AuthenticationFragments/SignUp.java) | Java | 54 | 0 | 14 | 68 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/UserInterface/MainActivity.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/UserInterface/MainActivity.java) | Java | 58 | 0 | 16 | 74 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/UserInterface/MainComponents/ExploreRecipes.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/UserInterface/MainComponents/ExploreRecipes.java) | Java | 85 | 0 | 20 | 105 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/UserInterface/MainComponents/FavouriteRecipes.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/UserInterface/MainComponents/FavouriteRecipes.java) | Java | 78 | 0 | 22 | 100 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/UserInterface/MainComponents/Home.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/UserInterface/MainComponents/Home.java) | Java | 78 | 0 | 21 | 99 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/UserInterface/MainComponents/MyProfileActivity.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/UserInterface/MainComponents/MyProfileActivity.java) | Java | 50 | 0 | 10 | 60 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/UserInterface/MainComponents/SingleRecipe.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/UserInterface/MainComponents/SingleRecipe.java) | Java | 126 | 0 | 20 | 146 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/UserInterface/ProfileFragments/NewRecipeActivity.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/UserInterface/ProfileFragments/NewRecipeActivity.java) | Java | 226 | 12 | 28 | 266 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/UserInterface/ProfileFragments/ProfileAllergies.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/UserInterface/ProfileFragments/ProfileAllergies.java) | Java | 53 | 1 | 12 | 66 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/UserInterface/ProfileFragments/ProfileMealPlans.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/UserInterface/ProfileFragments/ProfileMealPlans.java) | Java | 51 | 1 | 13 | 65 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/UserInterface/ProfileFragments/ProfileMyDetails.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/UserInterface/ProfileFragments/ProfileMyDetails.java) | Java | 77 | 1 | 17 | 95 |
+| [fantastic_food/app/src/main/java/com/sander/fantasticfood/UserInterface/ProfileFragments/ProfileMyRecipes.java](/fantastic_food/app/src/main/java/com/sander/fantasticfood/UserInterface/ProfileFragments/ProfileMyRecipes.java) | Java | 92 | 1 | 21 | 114 |
+| [fantastic_food/app/src/main/res/drawable-v24/ic_launcher_foreground.xml](/fantastic_food/app/src/main/res/drawable-v24/ic_launcher_foreground.xml) | XML | 30 | 0 | 0 | 30 |
+| [fantastic_food/app/src/main/res/drawable/add.xml](/fantastic_food/app/src/main/res/drawable/add.xml) | XML | 5 | 0 | 1 | 6 |
+| [fantastic_food/app/src/main/res/drawable/allergy.xml](/fantastic_food/app/src/main/res/drawable/allergy.xml) | XML | 10 | 0 | 1 | 11 |
+| [fantastic_food/app/src/main/res/drawable/back.xml](/fantastic_food/app/src/main/res/drawable/back.xml) | XML | 11 | 0 | 1 | 12 |
+| [fantastic_food/app/src/main/res/drawable/button_border.xml](/fantastic_food/app/src/main/res/drawable/button_border.xml) | XML | 14 | 0 | 1 | 15 |
+| [fantastic_food/app/src/main/res/drawable/choose_image.xml](/fantastic_food/app/src/main/res/drawable/choose_image.xml) | XML | 10 | 0 | 1 | 11 |
+| [fantastic_food/app/src/main/res/drawable/delete.xml](/fantastic_food/app/src/main/res/drawable/delete.xml) | XML | 10 | 0 | 1 | 11 |
+| [fantastic_food/app/src/main/res/drawable/edit.xml](/fantastic_food/app/src/main/res/drawable/edit.xml) | XML | 10 | 0 | 1 | 11 |
+| [fantastic_food/app/src/main/res/drawable/email.xml](/fantastic_food/app/src/main/res/drawable/email.xml) | XML | 10 | 0 | 1 | 11 |
+| [fantastic_food/app/src/main/res/drawable/favourite.xml](/fantastic_food/app/src/main/res/drawable/favourite.xml) | XML | 10 | 0 | 1 | 11 |
+| [fantastic_food/app/src/main/res/drawable/favourite_outline.xml](/fantastic_food/app/src/main/res/drawable/favourite_outline.xml) | XML | 10 | 0 | 1 | 11 |
+| [fantastic_food/app/src/main/res/drawable/favourite_red.xml](/fantastic_food/app/src/main/res/drawable/favourite_red.xml) | XML | 5 | 0 | 1 | 6 |
+| [fantastic_food/app/src/main/res/drawable/home.xml](/fantastic_food/app/src/main/res/drawable/home.xml) | XML | 10 | 0 | 1 | 11 |
+| [fantastic_food/app/src/main/res/drawable/ic_launcher_background.xml](/fantastic_food/app/src/main/res/drawable/ic_launcher_background.xml) | XML | 170 | 0 | 1 | 171 |
+| [fantastic_food/app/src/main/res/drawable/input_shape.xml](/fantastic_food/app/src/main/res/drawable/input_shape.xml) | XML | 11 | 0 | 1 | 12 |
+| [fantastic_food/app/src/main/res/drawable/input_shape_light.xml](/fantastic_food/app/src/main/res/drawable/input_shape_light.xml) | XML | 11 | 3 | 1 | 15 |
+| [fantastic_food/app/src/main/res/drawable/mealplan.xml](/fantastic_food/app/src/main/res/drawable/mealplan.xml) | XML | 10 | 0 | 1 | 11 |
+| [fantastic_food/app/src/main/res/drawable/menu.xml](/fantastic_food/app/src/main/res/drawable/menu.xml) | XML | 10 | 0 | 1 | 11 |
+| [fantastic_food/app/src/main/res/drawable/my_recipe.xml](/fantastic_food/app/src/main/res/drawable/my_recipe.xml) | XML | 10 | 0 | 1 | 11 |
+| [fantastic_food/app/src/main/res/drawable/next.xml](/fantastic_food/app/src/main/res/drawable/next.xml) | XML | 10 | 0 | 1 | 11 |
+| [fantastic_food/app/src/main/res/drawable/password.xml](/fantastic_food/app/src/main/res/drawable/password.xml) | XML | 10 | 0 | 1 | 11 |
+| [fantastic_food/app/src/main/res/drawable/person_circle.xml](/fantastic_food/app/src/main/res/drawable/person_circle.xml) | XML | 10 | 0 | 1 | 11 |
+| [fantastic_food/app/src/main/res/drawable/previous.xml](/fantastic_food/app/src/main/res/drawable/previous.xml) | XML | 10 | 0 | 1 | 11 |
+| [fantastic_food/app/src/main/res/drawable/profile_fill.xml](/fantastic_food/app/src/main/res/drawable/profile_fill.xml) | XML | 10 | 0 | 1 | 11 |
+| [fantastic_food/app/src/main/res/drawable/profile_outline.xml](/fantastic_food/app/src/main/res/drawable/profile_outline.xml) | XML | 10 | 0 | 1 | 11 |
+| [fantastic_food/app/src/main/res/drawable/refresh.xml](/fantastic_food/app/src/main/res/drawable/refresh.xml) | XML | 5 | 0 | 1 | 6 |
+| [fantastic_food/app/src/main/res/drawable/search.xml](/fantastic_food/app/src/main/res/drawable/search.xml) | XML | 10 | 0 | 1 | 11 |
+| [fantastic_food/app/src/main/res/drawable/share.xml](/fantastic_food/app/src/main/res/drawable/share.xml) | XML | 10 | 0 | 1 | 11 |
+| [fantastic_food/app/src/main/res/drawable/star.xml](/fantastic_food/app/src/main/res/drawable/star.xml) | XML | 10 | 0 | 1 | 11 |
+| [fantastic_food/app/src/main/res/drawable/undo.xml](/fantastic_food/app/src/main/res/drawable/undo.xml) | XML | 10 | 0 | 1 | 11 |
+| [fantastic_food/app/src/main/res/layout/activity_authentication.xml](/fantastic_food/app/src/main/res/layout/activity_authentication.xml) | XML | 52 | 0 | 6 | 58 |
+| [fantastic_food/app/src/main/res/layout/activity_main.xml](/fantastic_food/app/src/main/res/layout/activity_main.xml) | XML | 69 | 0 | 15 | 84 |
+| [fantastic_food/app/src/main/res/layout/activity_my_profile.xml](/fantastic_food/app/src/main/res/layout/activity_my_profile.xml) | XML | 62 | 0 | 12 | 74 |
+| [fantastic_food/app/src/main/res/layout/activity_new_recipe.xml](/fantastic_food/app/src/main/res/layout/activity_new_recipe.xml) | XML | 244 | 0 | 32 | 276 |
+| [fantastic_food/app/src/main/res/layout/activity_single_recipe.xml](/fantastic_food/app/src/main/res/layout/activity_single_recipe.xml) | XML | 171 | 0 | 24 | 195 |
+| [fantastic_food/app/src/main/res/layout/fragment_allergy_tile.xml](/fantastic_food/app/src/main/res/layout/fragment_allergy_tile.xml) | XML | 15 | 0 | 2 | 17 |
+| [fantastic_food/app/src/main/res/layout/fragment_explore_recipes.xml](/fantastic_food/app/src/main/res/layout/fragment_explore_recipes.xml) | XML | 86 | 0 | 13 | 99 |
+| [fantastic_food/app/src/main/res/layout/fragment_favourite_recipes.xml](/fantastic_food/app/src/main/res/layout/fragment_favourite_recipes.xml) | XML | 43 | 0 | 7 | 50 |
+| [fantastic_food/app/src/main/res/layout/fragment_home.xml](/fantastic_food/app/src/main/res/layout/fragment_home.xml) | XML | 75 | 0 | 12 | 87 |
+| [fantastic_food/app/src/main/res/layout/fragment_login.xml](/fantastic_food/app/src/main/res/layout/fragment_login.xml) | XML | 92 | 0 | 16 | 108 |
+| [fantastic_food/app/src/main/res/layout/fragment_mealplan_tile.xml](/fantastic_food/app/src/main/res/layout/fragment_mealplan_tile.xml) | XML | 16 | 0 | 2 | 18 |
+| [fantastic_food/app/src/main/res/layout/fragment_my_recipe_tile.xml](/fantastic_food/app/src/main/res/layout/fragment_my_recipe_tile.xml) | XML | 57 | 0 | 6 | 63 |
+| [fantastic_food/app/src/main/res/layout/fragment_profile_allergies.xml](/fantastic_food/app/src/main/res/layout/fragment_profile_allergies.xml) | XML | 53 | 0 | 6 | 59 |
+| [fantastic_food/app/src/main/res/layout/fragment_profile_meal_plans.xml](/fantastic_food/app/src/main/res/layout/fragment_profile_meal_plans.xml) | XML | 52 | 0 | 6 | 58 |
+| [fantastic_food/app/src/main/res/layout/fragment_profile_my_details.xml](/fantastic_food/app/src/main/res/layout/fragment_profile_my_details.xml) | XML | 189 | 0 | 33 | 222 |
+| [fantastic_food/app/src/main/res/layout/fragment_profile_my_recipes.xml](/fantastic_food/app/src/main/res/layout/fragment_profile_my_recipes.xml) | XML | 82 | 0 | 16 | 98 |
+| [fantastic_food/app/src/main/res/layout/fragment_recipe_tile.xml](/fantastic_food/app/src/main/res/layout/fragment_recipe_tile.xml) | XML | 56 | 0 | 7 | 63 |
+| [fantastic_food/app/src/main/res/layout/fragment_sign_up.xml](/fantastic_food/app/src/main/res/layout/fragment_sign_up.xml) | XML | 117 | 0 | 21 | 138 |
+| [fantastic_food/app/src/main/res/layout/gallery_tile.xml](/fantastic_food/app/src/main/res/layout/gallery_tile.xml) | XML | 27 | 0 | 2 | 29 |
+| [fantastic_food/app/src/main/res/layout/header_navigation_drawer.xml](/fantastic_food/app/src/main/res/layout/header_navigation_drawer.xml) | XML | 27 | 0 | 3 | 30 |
+| [fantastic_food/app/src/main/res/layout/spinner_item_layout.xml](/fantastic_food/app/src/main/res/layout/spinner_item_layout.xml) | XML | 10 | 0 | 0 | 10 |
+| [fantastic_food/app/src/main/res/menu/navigation_drawer.xml](/fantastic_food/app/src/main/res/menu/navigation_drawer.xml) | XML | 28 | 0 | 6 | 34 |
+| [fantastic_food/app/src/main/res/menu/profile_bottom_app_bar.xml](/fantastic_food/app/src/main/res/menu/profile_bottom_app_bar.xml) | XML | 32 | 0 | 1 | 33 |
+| [fantastic_food/app/src/main/res/menu/recipe_toolbar_menu.xml](/fantastic_food/app/src/main/res/menu/recipe_toolbar_menu.xml) | XML | 20 | 0 | 3 | 23 |
+| [fantastic_food/app/src/main/res/mipmap-anydpi-v26/food_logo.xml](/fantastic_food/app/src/main/res/mipmap-anydpi-v26/food_logo.xml) | XML | 5 | 0 | 0 | 5 |
+| [fantastic_food/app/src/main/res/mipmap-anydpi-v26/food_logo_round.xml](/fantastic_food/app/src/main/res/mipmap-anydpi-v26/food_logo_round.xml) | XML | 5 | 0 | 0 | 5 |
+| [fantastic_food/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml](/fantastic_food/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml) | XML | 5 | 0 | 0 | 5 |
+| [fantastic_food/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml](/fantastic_food/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml) | XML | 5 | 0 | 0 | 5 |
+| [fantastic_food/app/src/main/res/navigation/authentigation_graph.xml](/fantastic_food/app/src/main/res/navigation/authentigation_graph.xml) | XML | 27 | 0 | 3 | 30 |
+| [fantastic_food/app/src/main/res/navigation/main_graph.xml](/fantastic_food/app/src/main/res/navigation/main_graph.xml) | XML | 34 | 0 | 6 | 40 |
+| [fantastic_food/app/src/main/res/navigation/profile_graph.xml](/fantastic_food/app/src/main/res/navigation/profile_graph.xml) | XML | 37 | 0 | 2 | 39 |
+| [fantastic_food/app/src/main/res/values/colors.xml](/fantastic_food/app/src/main/res/values/colors.xml) | XML | 7 | 0 | 0 | 7 |
+| [fantastic_food/app/src/main/res/values/food_logo_background.xml](/fantastic_food/app/src/main/res/values/food_logo_background.xml) | XML | 4 | 0 | 0 | 4 |
+| [fantastic_food/app/src/main/res/values/image_placeholder_background.xml](/fantastic_food/app/src/main/res/values/image_placeholder_background.xml) | XML | 4 | 0 | 0 | 4 |
+| [fantastic_food/app/src/main/res/values/strings.xml](/fantastic_food/app/src/main/res/values/strings.xml) | XML | 42 | 1 | 0 | 43 |
+| [fantastic_food/app/src/main/res/values/themes.xml](/fantastic_food/app/src/main/res/values/themes.xml) | XML | 95 | 2 | 16 | 113 |
+| [fantastic_food/app/src/test/java/com/sander/fantasticfood/ExampleUnitTest.java](/fantastic_food/app/src/test/java/com/sander/fantasticfood/ExampleUnitTest.java) | Java | 9 | 5 | 3 | 17 |
+| [fantastic_food/build.gradle](/fantastic_food/build.gradle) | Groovy | 19 | 3 | 3 | 25 |
+| [fantastic_food/gradle.properties](/fantastic_food/gradle.properties) | Properties | 3 | 16 | 0 | 19 |
+| [fantastic_food/gradle/wrapper/gradle-wrapper.properties](/fantastic_food/gradle/wrapper/gradle-wrapper.properties) | Properties | 5 | 1 | 1 | 7 |
+| [fantastic_food/gradlew.bat](/fantastic_food/gradlew.bat) | Batch | 61 | 0 | 24 | 85 |
+| [fantastic_food/settings.gradle](/fantastic_food/settings.gradle) | Groovy | 2 | 0 | 0 | 2 |
+
+[summary](results.md)

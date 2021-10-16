@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/profileMyDetails"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@drawable/profile_fill"
+        android:iconTint="@color/ternary_white"
+        android:title="@string/my_details"/>
+    <item
+        android:id="@+id/profileAllergies"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@drawable/allergy"
+        android:iconTint="@color/ternary_white"
+        android:title="@string/allergies"/>
+    <item
+        android:id="@+id/profileMealPlans"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@drawable/mealplan"
+        android:iconTint="@color/ternary_white"
+        android:title="@string/my_mealplans"/>
+    <item
+        android:id="@+id/profileMyRecipes"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@drawable/my_recipe"
+        android:iconTint="@color/ternary_white"
+        android:title="@string/my_recipes"/>
+</menu>

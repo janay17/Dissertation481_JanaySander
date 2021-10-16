@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profile_graph"
+    app:startDestination="@id/profileMyDetails">
+
+    <fragment
+        android:id="@+id/profileMyDetails"
+        android:name="com.sander.fantasticfood.UserInterface.ProfileFragments.ProfileMyDetails"
+        android:label="fragment_profile_my_details"
+        tools:layout="@layout/fragment_profile_my_details" />
+    <fragment
+        android:id="@+id/profileAllergies"
+        android:name="com.sander.fantasticfood.UserInterface.ProfileFragments.ProfileAllergies"
+        android:label="fragment_profile_allergies"
+        tools:layout="@layout/fragment_profile_allergies" />
+    <fragment
+        android:id="@+id/profileMealPlans"
+        android:name="com.sander.fantasticfood.UserInterface.ProfileFragments.ProfileMealPlans"
+        android:label="fragment_profile_meal_plans"
+        tools:layout="@layout/fragment_profile_meal_plans" />
+    <fragment
+        android:id="@+id/profileMyRecipes"
+        android:name="com.sander.fantasticfood.UserInterface.ProfileFragments.ProfileMyRecipes"
+        android:label="fragment_profile_my_recipes"
+        tools:layout="@layout/fragment_profile_my_recipes">
+        <action
+            android:id="@+id/my_recipes_to_add_new"
+            app:destination="@+id/newRecipeActivity">
+
+        </action>
+    </fragment>
+    <activity
+        android:id="@+id/newRecipeActivity"
+        android:name="com.sander.fantasticfood.UserInterface.ProfileFragments.NewRecipeActivity"
+        android:label="activity_new_recipe"
+        tools:layout="@layout/activity_new_recipe" />
+</navigation>
